@@ -1,0 +1,11 @@
+﻿00-ProjectOverview.aspx					Project Overview
+01-MasterPage.aspx			            Master Page
+02-HomePage.aspx						Home Page
+03-SearchandRetrival.aspx			     Search and Retrival
+04-CharacterDetails.aspx				Character Details
+05-Videos.aspx							Videos
+06-SocialNetwork.aspx				     Social Networking
+07-ContactUs.aspx						Contact Us
+References.aspx							References
+Acknowledgments.aspx					Acknowledgments
+story.txt								Story of the Story File

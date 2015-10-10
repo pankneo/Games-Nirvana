@@ -1,0 +1,104 @@
+﻿html {
+    background: url("http://www.gamersbin.com/attachments/f137/523d1297156376-post-your-gamer-background-wallpapers-darksiders_wallpaper_1920x884.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.no-bg {
+    background: none;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    background-color: #000000;
+    height: 60px;
+    padding: 5px;
+}
+
+
+.nav-width {
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+
+.gameContainer, .review-placeholder, .game-details, .character-placeholder, .character-details, .contactContainer, .fbsection {
+    background-color: #333333;
+    color: white;
+    padding: 3%;
+}
+
+div.game-details a, div.character-details a {
+    cursor: default !important;
+    pointer-events: none;
+    color: inherit;
+}
+
+.game-item {
+    padding: 20px;
+}
+
+.gm-count {
+    margin-right: 9%;
+}
+
+.responsive-thumbs {
+    max-height: 150px;
+    max-width:150px !important;
+}
+
+
+.vid-thumbnail {
+    height: 200px;
+    width: 250px;
+    padding-top: 20px;
+}
+
+.caption {
+    font-size: 1em;
+    width: 250px;
+    text-align: left;
+    height: 40px;
+    padding-bottom: 0.5em;
+    background-color: #333333;
+    color: white;
+}
+
+.character-details > .thumbnail, .game-details > .thumbnail {
+    max-height: 65%;
+}
+
+.character-details > article img, .game-details > article img {
+    max-height: 35%;
+}
+
+#wait {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding: 2px;
+}
+
+#googleMap {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 15px;
+}
+
+.social-media-bar {
+   
+    align-content:center;
+    
+}

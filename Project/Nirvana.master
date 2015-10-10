@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Nirvana Games - Unleashing the best games...</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://icons.iconarchive.com/icons/prepaidgamecards/gaming-gadgets/72/Xbox-One-Controller-icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/nirvana.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-yeti.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/Master.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="no-bg">
+    <div id='fb-root'></div>
+    <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = '//connect.facebook.net/en_US/all.js#xfbml=1&appId=489461411153653';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="container">
+        <%--Navigation Bar--%>
+        <div class="navbar navbar-default navbar-center bar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Home.aspx">GAMES NIRVANA</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.aspx">HOME</a></li>
+                    <li class="revbtn"><a href="Reviews.aspx">REVIEWS</a></li>
+                    <li><a href="Characters.aspx">CHARACTERS</a></li>
+                    <li><a href="Videos.aspx">VIDEOS</a></li>
+                    <li><a href="Contact.aspx">CONTACT US</a></li>
+                    <li><a href="About.aspx">ABOUT</a></li>
+                </ul>
+
+                <ul class="nav  navbar-nav pull-right loginControl">
+                    
+                    <li>
+                        <div class="input-group input-group-sm" style="max-width: 240px; margin-top: 8px;">
+                            <input type="text" class="form-control" placeholder="Search Games" autocomplete="on" name="srch-term" id="srch-term" required />
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" id="btnGetGames" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </li>
+
+                     <li class="dropdown" id="menuLogin">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">User</a>                       
+                        <div class="dropdown-menu dropdown-menu-right" style="height:40px; width:20px">
+                             <div class="fb-login-button" style="padding:2px ;margin-left:40px; margin-top:5px" data-max-rows="1" data-size="small" data-show-faces="false" data-auto-logout-link="true"></div>
+                        </div>
+                    </li>
+
+                    
+                </ul>
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="navbar navbar-fixed-bottom bottom">
+        });
+        <footer>
+            <ul class="list-inline">
+                <li class="pull-left">Fueled By:<img height="50" src="http://static.giantbomb.com/bundles/phoenixsite/images/core/loose/logo-gb.png" /></li>
+                <li><a href="Home.aspx">HOME</a></li>
+                <li><a href="Reviews.aspx">REVIEWS</a></li>
+                <li><a href="Characters.aspx">CHARACTERS</a></li>
+                <li><a href="Videos.aspx">VIDEOS</a></li>
+                <li><a href="Contact.aspx">CONTACT US</a></li>
+                <li><a href="About.aspx">ABOUT</a></li>
+            </ul>
+
+            Pankaj Yadav &copy;All Rights Reserved  
+             
+        </footer>
+    </div>
+
+</body>
+</html>

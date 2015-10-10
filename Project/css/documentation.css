@@ -1,0 +1,17 @@
+﻿.container {
+    margin-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+    border-color:cadetblue;
+}
+
+img {
+    max-height: 40%;
+    padding: 5px;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 7px 3px 5px #888;
+    margin:10px;
+    max-width:80%;
+}
